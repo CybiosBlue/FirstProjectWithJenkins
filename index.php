@@ -10,8 +10,9 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-        echo "Hello world";
-        ?>
+        <form method="post" action="verif.php"> 
+            Prénom : <input type="text" name="prenom" size="12"> 
+            <input type="submit" value="OK"> 
+        </form>
     </body>
 </html>
